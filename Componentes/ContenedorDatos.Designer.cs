@@ -31,24 +31,24 @@
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
-            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
-            this.pictureBox_foto = new System.Windows.Forms.PictureBox();
             this.lbl_nombre = new System.Windows.Forms.Label();
             this.rtxt_descripcion = new System.Windows.Forms.RichTextBox();
+            this.pictureBox_foto = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.rtxt_escolaridad = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.rtxt_ponencias = new System.Windows.Forms.RichTextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.label3 = new System.Windows.Forms.Label();
-            this.rtxt_ponencias = new System.Windows.Forms.RichTextBox();
-            this.rtxt_escolaridad = new System.Windows.Forms.RichTextBox();
             this.rtxt_investigacion = new System.Windows.Forms.RichTextBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
-            this.tableLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_foto)).BeginInit();
+            this.tableLayoutPanel4.SuspendLayout();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -102,33 +102,6 @@
             this.tableLayoutPanel3.Size = new System.Drawing.Size(268, 128);
             this.tableLayoutPanel3.TabIndex = 0;
             // 
-            // tableLayoutPanel4
-            // 
-            this.tableLayoutPanel4.ColumnCount = 2;
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.98361F));
-            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.01639F));
-            this.tableLayoutPanel4.Controls.Add(this.panel1, 0, 0);
-            this.tableLayoutPanel4.Controls.Add(this.panel2, 1, 0);
-            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 143);
-            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
-            this.tableLayoutPanel4.RowCount = 1;
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
-            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(394, 166);
-            this.tableLayoutPanel4.TabIndex = 1;
-            // 
-            // pictureBox_foto
-            // 
-            this.pictureBox_foto.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox_foto.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox_foto.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox_foto.Name = "pictureBox_foto";
-            this.pictureBox_foto.Size = new System.Drawing.Size(114, 128);
-            this.pictureBox_foto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox_foto.TabIndex = 1;
-            this.pictureBox_foto.TabStop = false;
-            // 
             // lbl_nombre
             // 
             this.lbl_nombre.AutoSize = true;
@@ -152,6 +125,32 @@
             this.rtxt_descripcion.TabIndex = 1;
             this.rtxt_descripcion.Text = "";
             // 
+            // pictureBox_foto
+            // 
+            this.pictureBox_foto.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox_foto.Location = new System.Drawing.Point(3, 3);
+            this.pictureBox_foto.Name = "pictureBox_foto";
+            this.pictureBox_foto.Size = new System.Drawing.Size(114, 128);
+            this.pictureBox_foto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox_foto.TabIndex = 1;
+            this.pictureBox_foto.TabStop = false;
+            // 
+            // tableLayoutPanel4
+            // 
+            this.tableLayoutPanel4.ColumnCount = 2;
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 40.98361F));
+            this.tableLayoutPanel4.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 59.01639F));
+            this.tableLayoutPanel4.Controls.Add(this.panel1, 0, 0);
+            this.tableLayoutPanel4.Controls.Add(this.panel2, 1, 0);
+            this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(3, 143);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
+            this.tableLayoutPanel4.RowCount = 1;
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
+            this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 166F));
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(394, 166);
+            this.tableLayoutPanel4.TabIndex = 1;
+            // 
             // panel1
             // 
             this.panel1.Controls.Add(this.rtxt_escolaridad);
@@ -161,6 +160,17 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(155, 160);
             this.panel1.TabIndex = 0;
+            // 
+            // rtxt_escolaridad
+            // 
+            this.rtxt_escolaridad.BackColor = System.Drawing.SystemColors.Control;
+            this.rtxt_escolaridad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxt_escolaridad.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtxt_escolaridad.Location = new System.Drawing.Point(0, 24);
+            this.rtxt_escolaridad.Name = "rtxt_escolaridad";
+            this.rtxt_escolaridad.Size = new System.Drawing.Size(155, 136);
+            this.rtxt_escolaridad.TabIndex = 1;
+            this.rtxt_escolaridad.Text = "";
             // 
             // label1
             // 
@@ -183,6 +193,17 @@
             this.panel2.Size = new System.Drawing.Size(227, 160);
             this.panel2.TabIndex = 1;
             // 
+            // rtxt_ponencias
+            // 
+            this.rtxt_ponencias.BackColor = System.Drawing.SystemColors.Control;
+            this.rtxt_ponencias.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxt_ponencias.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.rtxt_ponencias.Location = new System.Drawing.Point(0, 24);
+            this.rtxt_ponencias.Name = "rtxt_ponencias";
+            this.rtxt_ponencias.Size = new System.Drawing.Size(227, 136);
+            this.rtxt_ponencias.TabIndex = 1;
+            this.rtxt_ponencias.Text = "";
+            // 
             // label2
             // 
             this.label2.AutoSize = true;
@@ -204,39 +225,6 @@
             this.panel3.Size = new System.Drawing.Size(394, 104);
             this.panel3.TabIndex = 2;
             // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.label3.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(0, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(102, 24);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Investigación";
-            // 
-            // rtxt_ponencias
-            // 
-            this.rtxt_ponencias.BackColor = System.Drawing.SystemColors.Control;
-            this.rtxt_ponencias.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtxt_ponencias.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtxt_ponencias.Location = new System.Drawing.Point(0, 24);
-            this.rtxt_ponencias.Name = "rtxt_ponencias";
-            this.rtxt_ponencias.Size = new System.Drawing.Size(227, 136);
-            this.rtxt_ponencias.TabIndex = 1;
-            this.rtxt_ponencias.Text = "";
-            // 
-            // rtxt_escolaridad
-            // 
-            this.rtxt_escolaridad.BackColor = System.Drawing.SystemColors.Control;
-            this.rtxt_escolaridad.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtxt_escolaridad.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.rtxt_escolaridad.Location = new System.Drawing.Point(0, 24);
-            this.rtxt_escolaridad.Name = "rtxt_escolaridad";
-            this.rtxt_escolaridad.Size = new System.Drawing.Size(155, 136);
-            this.rtxt_escolaridad.TabIndex = 1;
-            this.rtxt_escolaridad.Text = "";
-            // 
             // rtxt_investigacion
             // 
             this.rtxt_investigacion.BackColor = System.Drawing.SystemColors.Control;
@@ -247,6 +235,17 @@
             this.rtxt_investigacion.Size = new System.Drawing.Size(394, 80);
             this.rtxt_investigacion.TabIndex = 1;
             this.rtxt_investigacion.Text = "";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label3.Font = new System.Drawing.Font("Franklin Gothic Medium Cond", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(0, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(102, 24);
+            this.label3.TabIndex = 0;
+            this.label3.Text = "Investigación";
             // 
             // ContenedorDatos
             // 
@@ -260,8 +259,8 @@
             this.tableLayoutPanel2.ResumeLayout(false);
             this.tableLayoutPanel3.ResumeLayout(false);
             this.tableLayoutPanel3.PerformLayout();
-            this.tableLayoutPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_foto)).EndInit();
+            this.tableLayoutPanel4.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
