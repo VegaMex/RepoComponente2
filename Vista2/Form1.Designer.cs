@@ -28,9 +28,9 @@
             // 
             // contenedorDatos1
             // 
-            this.contenedorDatos1.Location = new System.Drawing.Point(12, 12);
+            this.contenedorDatos1.Location = new System.Drawing.Point(13, 13);
             this.contenedorDatos1.Name = "contenedorDatos1";
-            this.contenedorDatos1.Size = new System.Drawing.Size(372, 422);
+            this.contenedorDatos1.Size = new System.Drawing.Size(430, 529);
             this.contenedorDatos1.TabIndex = 0;
             // 
             // Form1
@@ -38,7 +38,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(469, 468);
+            this.ClientSize = new System.Drawing.Size(578, 554);
             this.Controls.Add(this.contenedorDatos1);
             this.Name = "Form1";
             this.Text = "Form1";
