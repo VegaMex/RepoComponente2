@@ -37,6 +37,7 @@
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.panel1 = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.rtxt_escolaridad = new System.Windows.Forms.RichTextBox();
             this.listaview = new System.Windows.Forms.ListView();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -45,7 +46,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.rtxt_investigacion = new System.Windows.Forms.RichTextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.rtxt_escolaridad = new System.Windows.Forms.RichTextBox();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -176,6 +176,18 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Títulos";
             // 
+            // rtxt_escolaridad
+            // 
+            this.rtxt_escolaridad.BackColor = System.Drawing.SystemColors.Control;
+            this.rtxt_escolaridad.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.rtxt_escolaridad.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.rtxt_escolaridad.Location = new System.Drawing.Point(7, 19);
+            this.rtxt_escolaridad.Name = "rtxt_escolaridad";
+            this.rtxt_escolaridad.ReadOnly = true;
+            this.rtxt_escolaridad.Size = new System.Drawing.Size(147, 60);
+            this.rtxt_escolaridad.TabIndex = 0;
+            this.rtxt_escolaridad.Text = "";
+            // 
             // listaview
             // 
             this.listaview.BackColor = System.Drawing.SystemColors.Control;
@@ -266,18 +278,6 @@
             this.label3.Size = new System.Drawing.Size(119, 24);
             this.label3.TabIndex = 0;
             this.label3.Text = "Investigación";
-            // 
-            // rtxt_escolaridad
-            // 
-            this.rtxt_escolaridad.BackColor = System.Drawing.SystemColors.Control;
-            this.rtxt_escolaridad.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.rtxt_escolaridad.Font = new System.Drawing.Font("Lucida Sans", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.rtxt_escolaridad.Location = new System.Drawing.Point(7, 19);
-            this.rtxt_escolaridad.Name = "rtxt_escolaridad";
-            this.rtxt_escolaridad.ReadOnly = true;
-            this.rtxt_escolaridad.Size = new System.Drawing.Size(147, 60);
-            this.rtxt_escolaridad.TabIndex = 0;
-            this.rtxt_escolaridad.Text = "";
             // 
             // ContenedorDatos
             // 
